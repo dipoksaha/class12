@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+.menu{
+    background: rgb(238, 198, 19);
+    
+    /* padding: 30px; */
+}
+
+
+.menu ul {
+    /* display: inline-block; */
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+    position: relative;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(22, 4, 4);
+    /* border: 1px solid; */
+    display: inline-block ;
+    padding: 20px 24px;
+    margin-left: -4px;
+    transition: s;
+
+}
+.menu ul li:hover{
+
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+
+}
+
+/* dropdown menu */
+
+.menu ul li ul{
+    position: absolute;
+    background: rgb(79, 187, 236);
+    width: 200px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: .1s;
+    top: 100%;
+    left: 0;
+}
+.menu ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.menu ul li ul li {
+    display: block;
+}
+.menu ul li ul li ul{
+    top:0;
+    left: 100%;
+}
+.heroimg{
+    background-image: url(https://i.ibb.co/NrcdKGh/young-mens.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    
+}
+.heroimg h1{
+    display: inline-block;
+    background: white;
+    color: #000;
+    margin-top: 200px ;
+    padding: 5px 20px;
+}
+.heroimg h3{
+    background:#fff ;
+    color: #000;
+    width: 80%;
+    margin: auto;
+}
+.heroimg a{
+    padding: 10px 20px;
+    background: red;
+    text-decoration: none;
+    color: #fff;
+}
+.heroimg a:hover{
+    background: #fff;
+    color: #000;
+    border: 2px solid rgb(252, 10, 10);
+}
+.mainlist{
+    width: 80%;
+    margin: 70px auto;
+    box-shadow: 0px 0px 16px #d3cdcd;;
+}
+.mainlist h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.mainlist ul{
+    padding: 10px;
+    list-style-position: outside;
+    text-align: center;
+    padding: 70px 0px ;
+}
+
+.mainlist1 {
+    width: 80%;
+    margin: 70px auto;
+    box-shadow: 0px 0px 16px #d3cdcd;
+}
+.mainlist1 h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.mainlist1 ul{
+   
+    list-style-position: inside;
+    text-align: center;
+    padding: 70px 0px ;
+}
+
+
+
+
+
+
+
+
+
+.suscribe{
+    width: 90%;
+    background:#f2f2f2 ;
+    margin: 30px auto;
+  
+}
+.suscribe1{
+    padding: 40px;
+    text-align: center;
+}
+.suscribe input{
+    width: 400px;
+    height: 32px;
+    border-bottom: 1px solid red;
+    display: inline-block;
+}
+.suscribe a{
+    display: inline-block;
+    background: red;
+    padding: 9px 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: -5px;
+
+}
+
+.listitem{
+height: 140px;
+border: 1px dotted gray;
+text-align: center;
+padding: 70px 0px;
+background: rgb(248, 248, 248);
+width: 90%;
+margin: 30px auto;
+}
+.listitem ul{
+    padding-top: 20px;
+}
+.listitem1{
+    display: inline-block;
+    width: 300px;
+}
+.listitem1 ul{
+    list-style:lower-roman;
+    list-style-position: inside;
+    line-height: 25px;
+}
+.listitem2{
+    display: inline-block;
+    width: 300px;
+}
+.listitem2 ul{
+    list-style:disc;
+    list-style-position: inside;
+    line-height: 25px;
+}
+.listitem3{
+    display: inline-block;
+    width: 300px;
+}
+.listitem3 ul{
+    list-style: lower-greek;
+    list-style-position: inside;
+    line-height: 25px;
+}
+.fotter{
+    height: 70px;
+    background: black;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.fotter p{
+    color: white;
+    padding-top: 10px;
+}
+.fotter i{
+    color:rgb(34, 30, 30) ;
+    background: rgb(84, 170, 240);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+   margin-top: 10px;
+    
+}
